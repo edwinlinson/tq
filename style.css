@@ -1,0 +1,269 @@
+*{
+ margin: 0;
+ padding: 0;
+ font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#logo {
+    width: 104px;
+    height: 57px;
+}
+
+#searchbar{
+    width: 566px;
+    height: 34px;
+    margin-top: 7px;
+    border: none;
+    border-radius: 6px;
+    padding-left: 15px;
+}
+.navbarcontent img{
+    width: 100px;
+    height: 28px;
+}
+.top{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #f2e9e9;
+    height: 72px;
+    padding-top: 8px;
+    position: fixed;
+    width: 100%;
+}
+.navbarcontent{
+    text-align: center;
+}
+.navbarcontent h5{
+    margin-top: 0;
+}
+.bottom{
+    padding-top: 87px;
+}
+.bottom{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #ffffff;
+    height: 31px;
+}
+.bottom a {
+    text-decoration: none;
+    color: #212529;
+}
+.banner img {
+    width: 100%;
+}
+.top a{
+    text-decoration: none;
+    color: #212529;
+}
+.test h1,p {
+ text-align: center;
+}
+.test{
+    padding-top: 12px;
+}
+.image6{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.image6 a {
+    text-decoration: none;
+    color: #212529;
+    font-weight: bold;
+}
+.smallerimg {
+    border: solid  #F6EEC0  ;
+    border-width: 2px;
+    border-radius: 8px;
+    
+}
+.smallerimg img {
+    width: 133px;
+    border-radius: 8px;
+}
+.image12{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 15px;
+}
+.image12 a {
+    text-decoration: none;
+    color: #212529;
+}
+#explore{
+    padding-top: 4px;
+    font-weight: lighter;
+}
+.shpcoll h1 ,p {
+    text-align: center;
+    padding-bottom: 12px;
+}
+.subt{
+   font-weight: bolder;
+   font-size: 38px;
+   
+}
+.img3{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 18px;
+}
+.hbig img {
+    width: 420px;
+    height: 420px;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+} 
+.hbig{
+    border: solid thin #F6EEC0;
+    border-radius: 15px;
+    
+}
+.hbig a{
+    text-decoration: none;
+    color: #212529;
+}
+.topsellers{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+.topimages{
+    border: solid thin #F6EEC0;
+}
+#newpic1{
+    background-image: url(./assets/sparkling-avenues.webp);
+    width: 460px;
+    height: 460px;
+}
+#newpic2{
+    background-image: url(./assets/pretty-in-pink.webp);
+    width: 460px;
+    height: 460px;
+}
+#newpic3{
+    background-image: url(./assets/dotsanddashes.webp);
+    width: 460px;
+    height: 460px;
+}
+.newdiv{
+    display: flex;
+    justify-content: space-evenly;
+}
+.shpcoll{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.banner{
+    display: flex;
+     
+}
+
+
+.banner2{
+    display: flex;
+    height: 460px;
+    width: 900px;
+    padding-left: 258px;
+}
+.b2{
+    /* float: right; */
+    background-image: url(./assets/rivah_D.avif);
+    /* background-size: contain; */
+    background-size: 460px 460px;
+
+    background-repeat:no-repeat;
+    width: 460px;
+    height: 460px;
+}
+.whatsapp{
+    background-image: url(./assets/bg.avif);
+    display: flex;
+    width: 25%;
+    border:solid thin black ;
+    border-radius: 15px;
+}
+.textwap{
+    margin-left: 20px; 
+    margin-top: 20px;
+}
+.logowap{
+    padding-left: 74px
+}
+.logos{
+    display: flex;
+    justify-content: space-evenly;
+}
+ul {
+    list-style-type: none;
+}
+.appst{
+    width: 120px;
+}
+.upf{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer{
+    margin-top: 150px;
+    background-color: #f2e9e9;
+
+}
+.followus{
+    display: flex;
+    justify-content: space-evenly;
+}
+.footer a {
+    text-decoration: none;
+    color: #212529;
+}
+
+.buttons{
+    margin-top: 75%;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.b2btn{
+    width:160px;
+    height: 45px;
+    color:#832729;
+    border-radius: 5px;
+    border: solid #832729 thin;
+}
+
+.b2btn:hover{
+    width:160px;
+    height: 45px;
+    color:white;
+    background-color: #832729;;
+    border-radius: 5px;
+    border: solid #832729 thin;
+}
+.b1{
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+.whatsapp:hover {
+    display: flex;
+    width: 25%;
+    color:#832729;
+    background-color: #832729;;
+    border: solid #832729 thin;
+    border-radius: 15px;
+    box-shadow: 5px 5px #832729;
+}
+.topimages button{
+    width: 82px;
+    height: 27px;
+    margin-left: 87px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.topimages h4{
+    margin-left: 89px;
+}
+.popup img{
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
